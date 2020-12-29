@@ -1,0 +1,8 @@
+.List {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.List > div {
+    margin: 20px;
+}

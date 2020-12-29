@@ -1,0 +1,47 @@
+.ListItem {
+    width: 300px;
+    height: 250px;
+    box-shadow: 0 0 10px #000000;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.ListItem > img {
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
+    display: flex;
+}
+
+.ListItem > div {
+    padding: 10px 20px;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.ListItem h3 {
+    color: #555555;
+}
+
+.ListItem p {
+    color: #888888;
+}
+
+.ListItem button {
+    padding: 6px 10px;
+    cursor: pointer;
+    background-color: #0d6efd;
+    border: initial;
+    outline: initial;
+    border-radius: 2px;
+    color: #ffffff;
+    font-weight: 700;
+    transition: background-color 0.3s linear;
+}
+
+.ListItem button:hover {
+    background-color: #0b5ed7;
+}
